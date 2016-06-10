@@ -1,4 +1,4 @@
-app.controller('HomeController', ['$scope', '$interval', '$http', 
+app.controller('HomeController', ['$scope', '$interval', '$http',
   function($scope, $interval, $http){
     $scope.data = {
       "valueNum": 56,
