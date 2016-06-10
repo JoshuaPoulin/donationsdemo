@@ -1,3 +1,16 @@
-<div>
-  <p>{{testing}} </p>
+<div class="donationsbox">
+  <div class="boxtitle">
+    <p class ="boxtext">Your Progress</p>
+  </div>
+  <div class="innerbox">
+    <p id="progresstext" class="actualbar">Reached: </p>
+    <progress class="actualbar" max="125" value="{{progressValue}}"></progress>
+    <div id="pleasework" class="actualbar">Target {{data.goal}}</div>
+    <div id="alignmentdiv">  
+      <div class="carat" id="currentvalue">^</div>
+      <div class="underalue" id="currentvalue"> ${{progressValue}}</div>
+    </div>
+    <p class="remaining">You need {{data.remaining}} more to reach your target.</p>
+
+    </div>
 </div>
